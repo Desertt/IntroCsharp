@@ -16,5 +16,17 @@ namespace IntroCsharp
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            //butona basıldığında 
+            //Merhaba mesajını göster
+            /*
+             * Bu da 
+             * Açıklama
+             * Satırı
+             */
+            MessageBox.Show("Merhaba");
+        }
     }
 }
