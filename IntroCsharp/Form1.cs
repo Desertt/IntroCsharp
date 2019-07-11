@@ -28,5 +28,21 @@ namespace IntroCsharp
              */
             MessageBox.Show("Merhaba");
         }
+
+
+        
+
+        public void btnHesapla_Click(object sender, EventArgs e)
+        {
+
+            int sayi1 = Convert.ToInt32(txtSayi1.Text);
+            int sayi2 = Convert.ToInt32(txtSayi2.Text);
+            if (comboBox1.Text=="Topla")
+            {
+                int sonuc = Convert.ToInt32(sayi1 + sayi2);
+                labelSonuc.Text = sonuc.ToString();
+            }
+            
+        }
     }
 }
