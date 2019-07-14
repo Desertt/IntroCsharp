@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 
@@ -30,10 +23,7 @@ namespace IntroCsharp
              */
             MessageBox.Show("Merhaba");
         }
-
-
         
-
         public void btnHesapla_Click(object sender, EventArgs e)
         {
             int sayi1 = Convert.ToInt32(txtSayi1.Text);
@@ -41,8 +31,8 @@ namespace IntroCsharp
 
             HesaplamaYap h = new HesaplamaYap(); //dışarıda tanımladığımız HesaplamaYap Metodunu Burada Çağırdık-Girilen Değerleri Göndermek İçin
             h.topla(sayi1, sayi2);
-            
-            if (comboBox1.Text=="Topla")
+
+            if (comboBox1.Text == "Topla")
             {
                 int sonuc = Convert.ToInt32(sayi1 + sayi2);
                 labelSonuc.Text = sonuc.ToString();
@@ -70,5 +60,6 @@ namespace IntroCsharp
             }
 
         }
+
     }
 }

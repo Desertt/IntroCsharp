@@ -122,7 +122,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(40, 350);
+            this.label4.Location = new System.Drawing.Point(24, 349);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(44, 13);
             this.label4.TabIndex = 8;
@@ -131,8 +131,7 @@
             // labelSonuc
             // 
             this.labelSonuc.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.labelSonuc.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.labelSonuc.Location = new System.Drawing.Point(80, 338);
+            this.labelSonuc.Location = new System.Drawing.Point(64, 337);
             this.labelSonuc.Name = "labelSonuc";
             this.labelSonuc.Size = new System.Drawing.Size(136, 38);
             this.labelSonuc.TabIndex = 9;
@@ -142,7 +141,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(228, 396);
+            this.ClientSize = new System.Drawing.Size(244, 462);
             this.Controls.Add(this.labelSonuc);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
