@@ -20,6 +20,11 @@ namespace Hesaplama
             return sayi1 - sayi2;
         }
 
+        public int[] topla(int v1, object sayi1, int v2, object sayi2)
+        {
+            throw new NotImplementedException();
+        }
+
         public int bol(int sayi1, int sayi2)
         {
             return sayi1 + sayi2;

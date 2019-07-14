@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 
+
 namespace IntroCsharp
 {
     public partial class Form1 : Form
@@ -40,6 +41,7 @@ namespace IntroCsharp
 
             HesaplamaYap h = new HesaplamaYap(); //dışarıda tanımladığımız HesaplamaYap Metodunu Burada Çağırdık-Girilen Değerleri Göndermek İçin
             h.topla(sayi1, sayi2);
+            
             if (comboBox1.Text=="Topla")
             {
                 int sonuc = Convert.ToInt32(sayi1 + sayi2);
