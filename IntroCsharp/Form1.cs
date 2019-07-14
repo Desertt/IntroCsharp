@@ -65,7 +65,7 @@ namespace IntroCsharp
         // TODO: Buraya da yapılacaklar listesini yazalım:
 
         /*SendTest metodu oluşturulacak ve bu metod ile form üzerinden girilen değerler TestHesapla Class'ına gönderilecektir.
-         *Eşzamanlı test yapılması sağlanacaktır.
+         *Eşzamanlı test yapılması sağlanacaktır.Bileşenin test işlemleri otomatize edilmelidir.
          */
 
 
