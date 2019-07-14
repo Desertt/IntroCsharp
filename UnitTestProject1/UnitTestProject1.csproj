@@ -56,10 +56,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Hesaplama\Hesaplama.csproj">
-      <Project>{7bbbd291-cfe1-4571-b91a-ee0391b19bb5}</Project>
-      <Name>Hesaplama</Name>
-    </ProjectReference>
     <ProjectReference Include="..\IntroCsharp\IntroCsharp.csproj">
       <Project>{3A883F59-135E-4437-BEB5-996741B8E71A}</Project>
       <Name>IntroCsharp</Name>

@@ -30,7 +30,7 @@ namespace IntroCsharp
             int sayi2 = Convert.ToInt32(txtSayi2.Text);
 
             HesaplamaYap h = new HesaplamaYap(); //dışarıda tanımladığımız HesaplamaYap Metodunu Burada Çağırdık-Girilen Değerleri Göndermek İçin
-            h.topla(sayi1, sayi2);
+            h.topla(sayi1, sayi2);//girilen değerleri metod türüne göre sonuçlandırır
 
             if (comboBox1.Text == "Topla")
             {
@@ -60,6 +60,14 @@ namespace IntroCsharp
             }
 
         }
+
+
+        // TODO: Buraya da yapılacaklar listesini yazalım:
+
+        /*SendTest metodu oluşturulacak ve bu metod ile form üzerinden girilen değerler TestHesapla Class'ına gönderilecektir.
+         *Eşzamanlı test yapılması sağlanacaktır.
+         */
+
 
     }
 }

@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntroCsharp", "IntroCsharp\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{D2EC453A-5055-4C09-A0A3-9CF25B7AA38B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hesaplama", "Hesaplama\Hesaplama.csproj", "{7BBBD291-CFE1-4571-B91A-EE0391B19BB5}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,10 +21,6 @@ Global
 		{D2EC453A-5055-4C09-A0A3-9CF25B7AA38B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2EC453A-5055-4C09-A0A3-9CF25B7AA38B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2EC453A-5055-4C09-A0A3-9CF25B7AA38B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7BBBD291-CFE1-4571-B91A-EE0391B19BB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7BBBD291-CFE1-4571-B91A-EE0391B19BB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7BBBD291-CFE1-4571-B91A-EE0391B19BB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7BBBD291-CFE1-4571-B91A-EE0391B19BB5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
