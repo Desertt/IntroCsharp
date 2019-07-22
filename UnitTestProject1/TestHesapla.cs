@@ -3,6 +3,7 @@ using IntroCsharp;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 
+
 namespace UnitTestProject1   //Burada Çoğu kütüphane gelmiyorkendimiz ekleyebiliriz (Örn.projede kullandığımız IntroCsharp )
 {
     [TestClass]

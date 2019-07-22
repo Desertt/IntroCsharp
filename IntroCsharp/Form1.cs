@@ -23,40 +23,47 @@ namespace IntroCsharp
              */
             MessageBox.Show("Merhaba");
         }
-        
+
         public void btnHesapla_Click(object sender, EventArgs e)
         {
             int sayi1 = Convert.ToInt32(txtSayi1.Text);
             int sayi2 = Convert.ToInt32(txtSayi2.Text);
 
             HesaplamaYap h = new HesaplamaYap(); //dışarıda tanımladığımız HesaplamaYap Metodunu Burada Çağırdık-Girilen Değerleri Göndermek İçin
-            h.topla(sayi1, sayi2);//girilen değerleri metod türüne göre sonuçlandırır
-
-            if (comboBox1.Text == "Topla")
+            CheckControl();
+            if (checkedListBox1.SelectedIndex == 0)
             {
-                int sonuc = Convert.ToInt32(sayi1 + sayi2);
-                labelSonuc.Text = sonuc.ToString();
+                labelSonuc.Text = h.topla(sayi1, sayi2).ToString();  ////girilen değerleri metod türüne göre sonuçlandırır
+
             }
 
-            h.cikar(sayi1, sayi2);
-            if (comboBox1.Text == "Çıkar")
+            if (checkedListBox1.SelectedIndex == 1)
             {
-                int sonuc = Convert.ToInt32(sayi1 + sayi2);
-                labelSonuc.Text = sonuc.ToString();
+                labelSonuc.Text = h.cikar(sayi1, sayi2).ToString();
             }
 
-            h.bol(sayi1, sayi2);
-            if (comboBox1.Text == "Böl")
+            if (checkedListBox1.SelectedIndex == 2)
             {
-                int sonuc = Convert.ToInt32(sayi1 + sayi2);
-                labelSonuc.Text = sonuc.ToString();
+                labelSonuc.Text = h.carp(sayi1, sayi2).ToString();
             }
 
-            h.carp(sayi1, sayi2);
-            if (comboBox1.Text == "Çarp")
+            if (checkedListBox1.SelectedIndex == 3)
             {
-                int sonuc = Convert.ToInt32(sayi1 + sayi2);
-                labelSonuc.Text = sonuc.ToString();
+                labelSonuc.Text = h.bol(sayi1, sayi2).ToString();
+            }
+
+        }
+
+
+        private void CheckControl()
+        {
+            for (int i = 0; i < checkedListBox1.SelectedItems.Count; i++)
+            {
+                if (i>0)
+                {
+                    MessageBox.Show("Birden Fazla İşlem Seçilemez !");
+                }
+                return;
             }
 
         }
